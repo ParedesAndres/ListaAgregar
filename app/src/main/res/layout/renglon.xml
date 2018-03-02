@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nombreyapellido"
+            android:text="Nombre y apellido"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000 00 00 00 00"
+            android:id="@+id/tv_telefono"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_llamar"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:text="LL"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/btn_editar"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:text="Ed"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:text="X"
+        android:layout_weight="1"
+        />
+</LinearLayout>
